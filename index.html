@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ELIXIR SKIN | الفخامة لبشرة نقية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Cairo', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            colors: {
+              brand: {
+                black: '#000000', /* Strictly Black */
+                dark: '#0a0a0a',
+                gray: '#111111',
+                card: '#1a1a1a',
+                blue: {
+                  50: '#eff6ff',
+                  100: '#dbeafe',
+                  500: '#3b82f6',
+                  600: '#2563eb',
+                  700: '#1d4ed8', // Royal Blue
+                  800: '#1e40af',
+                  900: '#1e3a8a',
+                }
+              },
+              gold: {
+                100: '#fbf5e6',
+                200: '#f4e4bf',
+                300: '#e8cd8d',
+                400: '#dcb15b',
+                500: '#d4af37', /* Primary Gold */
+                600: '#aa8c2c',
+                700: '#806921',
+                800: '#554616',
+                900: '#2b230b',
+                glow: '#ffeba0',
+              }
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'shimmer': 'shimmer 2.5s linear infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              },
+              shimmer: {
+                '0%': { backgroundPosition: '-1000px 0' },
+                '100%': { backgroundPosition: '1000px 0' }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000000; 
+      }
+      .dark ::-webkit-scrollbar-track {
+         background: #000000;
+      }
+      :not(.dark) ::-webkit-scrollbar-track {
+         background: #f1f5f9;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1; 
+        border-radius: 4px;
+        border: 1px solid #94a3b8;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #d4af37; 
+        border: 1px solid #000000;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2563eb; 
+      }
+      .dark ::-webkit-scrollbar-thumb:hover {
+        background: #aa8c2c; 
+      }
+      
+      .glass-card-dark {
+        background: rgba(0, 0, 0, 0.95); /* Pitch black opacity */
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(212, 175, 55, 0.2);
+      }
+      
+      .glass-card-light {
+        background: rgba(255, 255, 255, 0.90);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(37, 99, 235, 0.15);
+      }
+      
+      body {
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-50 text-slate-800 dark:bg-black dark:text-neutral-100 antialiased overflow-x-hidden selection:bg-brand-blue-500 dark:selection:bg-gold-500 selection:text-white dark:selection:text-black">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
