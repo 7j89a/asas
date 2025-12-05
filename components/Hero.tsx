@@ -75,24 +75,24 @@ const Hero: React.FC = () => {
               </button>
             </div>
 
-            {/* Floating Detail Cards - Rounded */}
-            <div className="absolute top-20 -left-4 md:-left-12 glass-card-light dark:glass-card-dark p-4 pr-6 rounded-full shadow-xl z-30 hidden md:flex items-center gap-4 border border-brand-blue-200 dark:border-gold-500/30 transition-colors duration-300">
-              <div className="bg-brand-blue-100 dark:bg-gold-500/20 p-3 rounded-full text-brand-blue-600 dark:text-gold-400">
+            {/* Floating Detail Cards - Rounded - Enhanced Visibility */}
+            <div className="absolute top-20 -left-4 md:-left-12 bg-white/90 dark:bg-neutral-900/90 backdrop-blur-xl p-4 pr-6 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_0_30px_rgba(212,175,55,0.15)] z-30 hidden md:flex items-center gap-4 border-2 border-brand-blue-400 dark:border-gold-500 transition-colors duration-300">
+              <div className="bg-brand-blue-100 dark:bg-gold-500 text-brand-blue-600 dark:text-black p-3 rounded-full shadow-inner">
                 <Shield size={20} />
               </div>
               <div className="text-right pl-4">
-                <p className="font-serif font-bold text-slate-800 dark:text-white text-xl leading-none">+6000</p>
-                <p className="text-xs text-slate-500 dark:text-gray-200 font-medium mt-1">حالة ناجحة</p>
+                <p className="font-serif font-bold text-brand-blue-900 dark:text-white text-xl leading-none">+6000</p>
+                <p className="text-xs text-brand-blue-600 dark:text-gold-100 font-bold mt-1">حالة ناجحة</p>
               </div>
             </div>
 
-            <div className="absolute bottom-32 -right-4 md:-right-12 glass-card-light dark:glass-card-dark p-4 pr-6 rounded-full shadow-xl z-30 hidden md:flex items-center gap-4 border border-brand-blue-200 dark:border-gold-500/30 transition-colors duration-300">
-               <div className="bg-brand-blue-100 dark:bg-gold-500/20 p-3 rounded-full text-brand-blue-600 dark:text-gold-400">
+            <div className="absolute bottom-32 -right-4 md:-right-12 bg-white/90 dark:bg-neutral-900/90 backdrop-blur-xl p-4 pr-6 rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_0_30px_rgba(212,175,55,0.15)] z-30 hidden md:flex items-center gap-4 border-2 border-brand-blue-400 dark:border-gold-500 transition-colors duration-300">
+               <div className="bg-brand-blue-100 dark:bg-gold-500 text-brand-blue-600 dark:text-black p-3 rounded-full shadow-inner">
                   <Leaf size={20} />
                 </div>
                 <div className="text-right pl-4">
-                  <p className="font-serif font-bold text-slate-800 dark:text-white text-xl leading-none">39</p>
-                  <p className="text-xs text-slate-500 dark:text-gray-200 font-medium mt-1">معدن نقي</p>
+                  <p className="font-serif font-bold text-brand-blue-900 dark:text-white text-xl leading-none">39</p>
+                  <p className="text-xs text-brand-blue-600 dark:text-gold-100 font-bold mt-1">معدن نقي</p>
                 </div>
             </div>
             

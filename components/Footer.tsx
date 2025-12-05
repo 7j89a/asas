@@ -18,9 +18,9 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-lg mb-6 text-white">اكتشفي المزيد</h4>
             <ul className="space-y-3 text-slate-300">
-              <li><a href="#" className="hover:text-brand-blue-400 dark:hover:text-gold-400 transition-colors">فلسفتنا</a></li>
-              <li><a href="#" className="hover:text-brand-blue-400 dark:hover:text-gold-400 transition-colors">المجموعة الكاملة</a></li>
-              <li><a href="#" className="hover:text-brand-blue-400 dark:hover:text-gold-400 transition-colors">نادي النخبة</a></li>
+              <li><a href="#ingredients" className="hover:text-brand-blue-400 dark:hover:text-gold-400 transition-colors">قصتنا</a></li>
+              <li><a href="#ingredients" className="hover:text-brand-blue-400 dark:hover:text-gold-400 transition-colors">مكونات المنتج</a></li>
+              <li><a href="#benefits" className="hover:text-brand-blue-400 dark:hover:text-gold-400 transition-colors">طريقة الاستخدام</a></li>
             </ul>
           </div>
 
