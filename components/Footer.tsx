@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Twitter, Mail } from 'lucide-react';
+import { Instagram, Facebook, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -26,14 +26,14 @@ const Footer: React.FC = () => {
 
           <div>
             <h4 className="font-bold text-lg mb-6 text-white">تواصلي معنا</h4>
-            <a href="mailto:vip@elixirskin.com" className="flex items-center gap-2 text-slate-300 mb-2 hover:text-brand-blue-400 dark:hover:text-gold-400 transition-colors">
+            <a href="mailto:elixirskin@gmail.com" className="flex items-center gap-2 text-slate-300 mb-2 hover:text-brand-blue-400 dark:hover:text-gold-400 transition-colors">
               <Mail size={16} />
-              <span>vip@elixirskin.com</span>
+              <span>elixirskin@gmail.com</span>
             </a>
             <div className="flex gap-4 mt-6">
               {/* Social Icons */}
               <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/elixir_skin_golden?igsh=aW5jejFuNWF2MjZj&utm_source=qr" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 border border-white/20 flex items-center justify-center hover:border-brand-blue-400 dark:hover:border-gold-500 hover:text-brand-blue-400 dark:hover:text-gold-500 hover:bg-white/10 transition-all cursor-pointer rounded-full group"
@@ -42,22 +42,13 @@ const Footer: React.FC = () => {
                 <Instagram size={20} />
               </a>
               <a 
-                href="https://facebook.com" 
+                href="https://www.facebook.com/jasmineboutique07" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 border border-white/20 flex items-center justify-center hover:border-brand-blue-400 dark:hover:border-gold-500 hover:text-brand-blue-400 dark:hover:text-gold-500 hover:bg-white/10 transition-all cursor-pointer rounded-full group"
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
-              </a>
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 border border-white/20 flex items-center justify-center hover:border-brand-blue-400 dark:hover:border-gold-500 hover:text-brand-blue-400 dark:hover:text-gold-500 hover:bg-white/10 transition-all cursor-pointer rounded-full group"
-                aria-label="Twitter"
-              >
-                <Twitter size={20} />
               </a>
             </div>
           </div>

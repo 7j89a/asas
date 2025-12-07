@@ -39,7 +39,7 @@ const AIConsultant: React.FC = () => {
       {/* Floating Action Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 left-6 z-50 bg-gradient-to-br from-brand-blue-400 to-brand-blue-600 dark:from-gold-400 dark:to-gold-600 text-white dark:text-black p-4 rounded-full shadow-[0_0_20px_rgba(37,99,235,0.4)] dark:shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:scale-110 transition-transform duration-300 group border border-brand-blue-300 dark:border-gold-300"
+        className="fixed bottom-6 left-6 z-50 bg-gradient-to-br from-blue-600 to-blue-800 dark:from-gold-400 dark:to-gold-600 text-white dark:text-black p-4 rounded-full shadow-[0_4px_20px_rgba(37,99,235,0.5)] dark:shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:scale-110 transition-transform duration-300 group border border-blue-500 dark:border-gold-300"
       >
         <Sparkles size={28} className="animate-pulse" />
         <span className="absolute left-full ml-4 bg-white dark:bg-black border border-brand-blue-200 dark:border-gold-500/30 text-brand-blue-900 dark:text-gold-100 px-4 py-2 text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-xl pointer-events-none rounded-lg">
